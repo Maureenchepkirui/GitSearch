@@ -6,9 +6,10 @@ background-color:   blue;
 body{
   border-style: inset;
   border-color: yellow;
+  background-color: yellow;
 }
 img {
   border-radius: 8px;
   height: auto;
-  width: 400px;
+  width: 350px;
 }
