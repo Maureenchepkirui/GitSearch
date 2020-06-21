@@ -19,4 +19,8 @@ getProfileData(){
   return this.http.get("https://api.github.com/users/"+this.userName)
   .pipe(map(res => res));
 }
+getProfileRepos(){
+  return this.http.get("https://api.github.com/users/"+this.userName+"/repos")
+  .pipe(map(res => res));
+}
 }
