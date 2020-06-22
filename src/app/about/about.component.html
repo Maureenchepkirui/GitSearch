@@ -1,4 +1,6 @@
 <div class="container">
+<p appHighlight>This is A website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories</p>
+
   <div *ngIf = "profile">
   <div class="panel">
     <div class="panel-heading ">
@@ -23,6 +25,9 @@
            <div *ngFor = 'let repo of repos'>
              <ul>
                <li>Repository:{{repo.name}}</li>
+               <p>created on:{{repo.created_at|date}}</p>
+               <p>Updated on:{{repo.updated_at|date}}</p>
+               <p>Updated on:{{repo.pushed_at|date}}</p>
                <a href="{{repo.html_url}}" class="btn btn-danger btn">View on Github</a>
                <p *ngIf ='repo.description'>Description:{{repo.description}}</p>
              </ul>
