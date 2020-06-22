@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
 
 .panel-heading{
 background-color:   yellow;
@@ -7,6 +7,10 @@ body{
   border-style: inset;
   border-color: yellow;
   background-color: purple;
+  font-family: 'El Messiri', sans-serif;
+  border-width: 3px;
+  border-left-width: 10px;
+  border-right-width: 10px;
 }
 img {
   border-radius: 8px;
