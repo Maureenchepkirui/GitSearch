@@ -28,4 +28,5 @@ getProfileRepos(){
 updateProfile(userName:string){
   this.userName = userName
 }
+
 }

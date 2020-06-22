@@ -12,6 +12,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { HighlightDirective } from './highlight.directive';
 import { DateCountPipe } from './date-count.pipe';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,9 @@ import { DateCountPipe } from './date-count.pipe';
     NavbarComponent,
     NotFoundComponent,
     HighlightDirective,
-    DateCountPipe
+    DateCountPipe,
+  
+
   ],
   imports: [
     BrowserModule,

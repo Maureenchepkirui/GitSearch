@@ -26,9 +26,9 @@
              <ul>
                <li>Repository:{{repo.name}}</li>
                <p>created on:{{repo.created_at|date}}</p>
-               <p>Updated on:{{repo.updated_at|date}}</p>
-               <p>Updated on:{{repo.pushed_at|date}}</p>
-               <a href="{{repo.html_url}}" class="btn btn-danger btn">View on Github</a>
+               <p>Updated :{{repo.updated_at|date|dateCount}}</p>
+
+               <a href="{{repo.html_url}}" class="btn btn-danger btn">SEARCH REPOSITORY</a>
                <p *ngIf ='repo.description'>Description:{{repo.description}}</p>
              </ul>
 
