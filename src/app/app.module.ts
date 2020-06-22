@@ -8,11 +8,13 @@ import { ProfileComponent } from './profile/profile.component';
 import {ProfileService   } from "./profile.service";
 import { AboutComponent } from './about/about.component';
 import { AboutService } from "./about.service";
+import { NavbarComponent } from './navbar/navbar.component';
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
-    AboutComponent
+    AboutComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
