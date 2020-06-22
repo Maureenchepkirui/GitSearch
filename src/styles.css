@@ -5,7 +5,7 @@ background-color:   yellow;
 }
 body{
   border-style: inset;
-  border-color: yellow;
+  border-color: #00FF00;
   background-color: purple;
   font-family: 'El Messiri', sans-serif;
   border-width: 3px;
@@ -16,6 +16,7 @@ img {
   border-radius: 8px;
   height: auto;
   width: 350px;
+  padding-top: 20px;
 }
 .search-form{
   padding-top: 20px;

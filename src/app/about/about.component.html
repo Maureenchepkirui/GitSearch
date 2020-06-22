@@ -6,7 +6,7 @@
     <div class="panel-heading ">
       Username: {{profile.login}},
 
-      <a href="{{profile.html_url}}" class="btn btn-danger btn-sm">View  Profile on Github</a>
+      <a href="{{profile.html_url}}" class="btn btn-danger btn-sm"target="_blank">View  Profile on Github</a>
       {{profile.followers}}Followers,
       {{profile.following}}Following,
       {{profile.public_repos}}Repositories,
@@ -28,7 +28,7 @@
                <p>created on:{{repo.created_at|date}}</p>
                <p>Updated :{{repo.updated_at|date|dateCount}}</p>
 
-               <a href="{{repo.html_url}}" class="btn btn-danger btn">SEARCH REPOSITORY</a>
+               <a href="{{repo.html_url}}" class="btn btn-danger btn"target="_blank">SEARCH REPOSITORY</a>
                <p *ngIf ='repo.description'>Description:{{repo.description}}</p>
              </ul>
 

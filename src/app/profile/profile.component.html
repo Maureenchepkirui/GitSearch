@@ -32,7 +32,7 @@
              <ul>
                <li>Repository:{{repo.name}}</li>
                <p>created on:{{repo.created_at|date}}</p>
-               <p>Created by:{{profile.login}}</p>
+               <p *ngIf='profile.name'>Created by:{{profile.name}}</p>
                <p>Updated :{{repo.updated_at|dateCount}}</p>
 
 

@@ -7,7 +7,7 @@ export class HighlightDirective {
 
 
     constructor(elem:ElementRef) {
-      elem.nativeElement.style.backgroundColor="Green"
+      elem.nativeElement.style.backgroundColor="#00FF00"
      }
 
 }
