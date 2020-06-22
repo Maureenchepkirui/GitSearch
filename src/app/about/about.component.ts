@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {AboutService  } from "../about.service";
+import {environment } from '../../environments/environment';
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
