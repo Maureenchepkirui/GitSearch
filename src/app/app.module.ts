@@ -6,10 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import {ProfileService   } from "./profile.service";
+import { AboutComponent } from './about/about.component';
+import { AboutService } from "./about.service";
 @NgModule({
   declarations: [
     AppComponent,
-    ProfileComponent
+    ProfileComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
@@ -17,7 +20,7 @@ import {ProfileService   } from "./profile.service";
     HttpClientModule,
     FormsModule,
   ],
-  providers: [ProfileService ],
+  providers: [ProfileService,AboutService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

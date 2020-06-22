@@ -1,0 +1,46 @@
+<div class="container">
+  <div *ngIf = "profile">
+  <div class="panel">
+    <div class="panel-heading ">
+      Username: {{profile.login}},
+
+      <a href="{{profile.html_url}}" class="btn btn-danger btn-sm">View  Profile on Github</a>
+      {{profile.followers}}Followers,
+      {{profile.following}}Following,
+      {{profile.public_repos}}Repositories,
+  </div>
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="{{profile.avatar_url}}" class="img-circle img-responsive" alt="Profile avatar">
+          <p *ngIf ='profile.bio'>Bio:{{profile.bio}}</p>
+        </div>
+       <div class="col-md-3">
+       <div class="panel panel-default">
+         <div class="panel-heading1">
+           <h2 class="panel-title">Repositories</h2>
+           </div>
+           <div *ngFor = 'let repo of repos'>
+             <ul>
+               <li>Repository:{{repo.name}}</li>
+               <a href="{{repo.html_url}}" class="btn btn-danger btn">View on Github</a>
+               <p *ngIf ='repo.description'>Description:{{repo.description}}</p>
+             </ul>
+
+
+
+
+           </div>
+         </div>
+
+       </div>
+
+
+           </div>
+
+         </div>
+
+       </div>
+      </div>
+
+</div>

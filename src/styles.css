@@ -1,12 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
 .panel-heading{
-background-color:   blue;
+background-color:   yellow;
 }
 body{
   border-style: inset;
   border-color: yellow;
-  background-color: yellow;
+  background-color: purple;
 }
 img {
   border-radius: 8px;
