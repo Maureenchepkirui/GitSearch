@@ -22,7 +22,8 @@ import { DateCountPipe } from './date-count.pipe';
     NotFoundComponent,
     HighlightDirective,
     DateCountPipe,
-  
+    
+
 
   ],
   imports: [
