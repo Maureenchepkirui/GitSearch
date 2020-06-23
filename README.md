@@ -4,9 +4,10 @@ A website where users may enter a GitHub username into a form, submit it, and se
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 **Screenshot**
 
-![](https://github.com/Maureenchepkirui/GitSearch/blob/master/src/assets/screenshot.png)
+![](https://github.com/Maureenchepkirui/GitSearch/blob/master/src/assets/screen2.png)
 
 **LivePage**
+
 https://maureenchepkirui.github.io/GitSearch/
 
  **Development**
@@ -16,9 +17,11 @@ Run `ng serve` for a dev server.
  The app will automatically reload if you change any of the source files.
 
 **BDD**
+
 Input Ouput Clicks Searched Users will be displayed Clicks Change display views on the browser according to user's preference clicks Navigate to a specific repository when search repository button is clicked
 
 **INSTALLATION REQUIREMENTS**
+
 Clone or download and unzip the repository from github, https://github.com/Maureenchepkirui/GitSearch.
 If you have git Use this command git clone `https://github.com/Maureenchepkirui/GitSearch.` to clone the project.
 Run ng serve from your terminal
