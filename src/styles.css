@@ -2,6 +2,7 @@
 
 .panel-heading{
 background-color:   pink;
+color: black;
 }
 body{
   border-style: inset;
@@ -11,6 +12,7 @@ body{
   border-width: 3px;
   border-left-width: 10px;
   border-right-width: 10px;
+  color: white;
 }
 img {
   border-radius: 8px;
@@ -20,4 +22,10 @@ img {
 }
 .search-form{
   padding-top: 20px;
+}
+h1{
+  font-size: 25px;
+}
+.navbar-nav{
+  font-size: 30px;
 }
